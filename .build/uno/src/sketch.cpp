@@ -12,7 +12,9 @@ void loop();
 void setup() {                
   // initialize the digital pin as an output.
   // Pin 13 has an LED connected on most Arduino boards:
-  pinMode(13, OUTPUT);     
+  pinMode(13, OUTPUT); 
+  Serial.begin(9600);
+  Serial.print("Hello world");    
 }
 
 void loop() {
