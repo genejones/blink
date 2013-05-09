@@ -2,12 +2,6 @@
 
 echo "building sketch..."
 ino build
-CHECKFORCHANGES=$(git diff | grep firmware.hex)
-#build the code automagically, simply by alterign it and checking it in!
-if "$CHECKFORCHANGES" = 0; then
-    echo "No firmware changes found"
-else
-    git add .build/*
-#track firmware changes, if any were made.
-fi
+#build the code automagically, simply by altering it and checking it in!
+git add .build/*
 exit 0
