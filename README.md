@@ -22,7 +22,7 @@ This is done by making ```project_folder/.git/hooks/pre-commit```, then copying 
 Subsequent commits are much easier:
 + Alter code like a boss.
 + Include changes ```git add sketch/sketch.ino```
-+ Commit changes ```git commit -m "Just made an awesome revision"
++ Commit changes ```git commit -m "Just made an awesome revision"```
 + Push changes ```git push origin```
 
 Firmware changes can take up to 30 seconds to progegate, but they are usually much faster (it depends on how speedy Github is at sending Rascal a notification).
