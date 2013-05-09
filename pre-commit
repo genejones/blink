@@ -1,6 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 ino build
-#build the code automagically, simply by altering it and checking it in!
-git add .build/*
-#track firmware changes, etc made.
+#build the code automagically, simply by alterign it and checking it in!
+if [ $(git diff | grep firmware.hex) -ne 0 ]
+then
+    git add .build/*
+#track firmware changes, if any were made.
+fi
+exit 0
