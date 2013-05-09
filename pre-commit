@@ -2,8 +2,7 @@
 
 ino build
 #build the code automagically, simply by alterign it and checking it in!
-if [ $(git diff | grep firmware.hex) -ne 0 ]
-then
+if $(git diff | grep firmware.hex) -ne 0; then
     git add .build/*
 #track firmware changes, if any were made.
 fi
