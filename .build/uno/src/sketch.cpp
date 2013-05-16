@@ -18,9 +18,9 @@ void setup() {
 
 void loop() {
   digitalWrite(13, HIGH);   // set the LED on
-  delay(1000);              // wait for a second
+  delay(500);              // wait for a second
   digitalWrite(13, LOW);    // set the LED off
   Serial.print("Off");
-  delay(1000);              // wait for a second
+  delay(500);              // wait for a second
   Serial.print("On");
 }
