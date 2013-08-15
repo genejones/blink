@@ -26,3 +26,5 @@ Subsequent commits are much easier:
 + Push changes ```git push origin```
 
 Firmware changes can take up to 30 seconds to progegate, but they are usually much faster (it depends on how speedy Github is at sending Rascal a notification).
+
+It should work better.
