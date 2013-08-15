@@ -1,10 +1,9 @@
 ##Blink
 
 This is a sample, easy Arduino sketch based upon the Blink sketch.
+Secret Robot should automatically program our Arduino with this code on push to GitHub.
 
 It demonstrates the necessary Ino framework and Git pre-commit hooks for Secret Robot.
-
-Secret Robot should automatically upload this on push to GitHub.
 
 Here's how to get started:
 + Install the Ino framework. This is easy: ```pip install ino```. Only possible on Unix systems for now, sorry.
