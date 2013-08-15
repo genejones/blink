@@ -4,6 +4,8 @@ This is a sample, easy Arduino sketch based upon the Blink sketch.
 
 It demonstrates the necessary Ino framework and Git pre-commit hooks.
 
+It should automatically run.
+
 Here's how to get started:
 + Install the Ino framework. This is easy: ```pip install ino```. Only possible on Unix systems for now, sorry.
 + Start a new project with Ino, using ```ino init``` in a new folder
@@ -26,5 +28,3 @@ Subsequent commits are much easier:
 + Push changes ```git push origin```
 
 Firmware changes can take up to 30 seconds to progegate, but they are usually much faster (it depends on how speedy Github is at sending Rascal a notification).
-
-It should work better.
